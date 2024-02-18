@@ -1,0 +1,125 @@
+html {
+  font-family: Helvetica;
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 14px;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul a:hover {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Carter One", Helvetica;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  width: 350px;
+}
+
+.heading img {
+  width: 50px;
+  height: 50px;
+}
+
+.right-buttons img{
+  width: 35px;
+  height: 35px;
+}
+
+.right-buttons {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 350px;
+}
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  height: 92vh;
+  margin-top: -10px;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-text h1{
+  font-size: 80px;
+  font-weight: 700;
+  color: #f5f5f5b5;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;;
+  font-family: Helvetica;
+}
+
+.hero-body{
+  margin-top: 180px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  color: #f5f5f5b5;
+}
+
+.hero-body p{
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: "Dancing Script";
+}
+
+.hero-body a {
+  color: #f5f5f5b5;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid #f5f5f5b5;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.hero-body a:hover {
+  background-color: #f5f5f5b5;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
