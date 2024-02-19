@@ -63,7 +63,9 @@ ul a:hover {
 
 .hero {
   background-image: url("../images/hero.jpg");
+  background-blend-mode: soft-light;
   height: 92vh;
+  width: auto;
   margin-top: -10px;
 }
 
@@ -77,7 +79,7 @@ ul a:hover {
 .hero-text h1{
   font-size: 80px;
   font-weight: 700;
-  color: #f5f5f5b5;
+  color: #e3f2ff;
   text-align: center;
   margin: 0;
   padding-top: 40px;;
@@ -90,7 +92,7 @@ ul a:hover {
   align-items: flex-start;
   flex-direction: column;
   width: 80%;
-  color: #f5f5f5b5;
+  color: #e3f2ff;
 }
 
 .hero-body p{
@@ -102,17 +104,17 @@ ul a:hover {
 }
 
 .hero-body a {
-  color: #f5f5f5b5;
+  color: #e3f2ff;
   font-size: 30px;
   font-weight: 500;
   text-decoration: none;
-  border: 2px solid #f5f5f5b5;
+  color: #e3f2ff;
   padding: 10px 20px;
   border-radius: 12px;
 }
 
 .hero-body a:hover {
-  background-color: #f5f5f5b5;
+  background-color: #e3f2ff;
   color: black;
 }
 
