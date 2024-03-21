@@ -1,0 +1,90 @@
+header {
+  display: flex;
+  padding: 6px 14px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3f2ff;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  gap: 10px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+header ul a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+}
+
+header .right-buttons img{
+  width: 35px;
+  height: 35px;
+}
+
+header .right-buttons {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 350px;
+}
+
+header .right-buttons a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+}
+
+header .right-buttons a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Carter One", Helvetica;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  width: 350px;
+}
+
+.heading img {
+  width: 50px;
+  height: 50px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #e3f2ff;
+}

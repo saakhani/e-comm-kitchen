@@ -1,72 +1,18 @@
 html {
-  font-family: Helvetica;
+  font-family: 'Helvetica', sans-serif;
   background-color: whitesmoke;
 }
 
-header {
-  display: flex;
-  padding: 10px 20px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+body{
+  padding: 0px;
+  margin: 0px;
 }
-
-header ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 14px;
-  font-size: 18px;
-  color: black;
-  font-weight: 500;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-ul a:hover {
-  background-color: grey;
-  color: white;
-  padding: 10px;
-  border-radius: 12px;
-}
-
-.heading {
-  font-size: 40px;
-  font-family: "Carter One", Helvetica;
-  font-weight: 700;
-  color: black;
-  margin: 0;
-  width: 350px;
-}
-
-.heading img {
-  width: 50px;
-  height: 50px;
-}
-
-.right-buttons img{
-  width: 35px;
-  height: 35px;
-}
-
-.right-buttons {
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 350px;
-}
-
 .hero {
   background-image: url("../images/hero.jpg");
   background-blend-mode: soft-light;
   height: 92vh;
   width: auto;
-  margin-top: -10px;
+  opacity: 90%;
 }
 
 .hero-text{
@@ -111,17 +57,10 @@ ul a:hover {
   color: #e3f2ff;
   padding: 10px 20px;
   border-radius: 12px;
+  border: #e3f2ff 3px dotted;
 }
 
 .hero-body a:hover {
   background-color: #e3f2ff;
   color: black;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-size: 16px;
-  font-weight: 500;
 }

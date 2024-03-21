@@ -1,0 +1,29 @@
+html {
+  font-family: 'Helvetica', sans-serif;
+  background-color: whitesmoke;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.about{
+  margin: 20px;
+  padding: 20px;
+}
+
+.about h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+.about p{
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
