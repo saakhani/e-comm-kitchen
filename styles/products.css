@@ -62,7 +62,6 @@ html {
   justify-content:baseline;
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 3px dotted black;
 }
 
 .item{
@@ -113,4 +112,11 @@ html {
 .item button:hover{
   cursor: pointer;
   outline: black 3px dotted;
+}
+
+.itemsInCart{
+  margin: 20px;
+  font-size: 24px;
+  border-top: 3px dotted black;
+  padding-top: 10px;
 }
